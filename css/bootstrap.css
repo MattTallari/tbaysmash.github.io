@@ -2355,6 +2355,120 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.active:hover > th {
   background-color: #e8e8e8;
 }
+
+
+/* PLACING CSS */
+.table > thead > tr > td.first-place,
+.table > tbody > tr > td.first-place,
+.table > tfoot > tr > td.first-place,
+.table > thead > tr > th.first-place,
+.table > tbody > tr > th.first-place,
+.table > tfoot > tr > th.first-place,
+.table > thead > tr.first-place > td,
+.table > tbody > tr.first-place > td,
+.table > tfoot > tr.first-place > td,
+.table > thead > tr.first-place > th,
+.table > tbody > tr.first-place > th,
+.table > tfoot > tr.first-place > th {
+  background-color: #f3d114;
+}
+.table-hover > tbody > tr > td.first-place:hover,
+.table-hover > tbody > tr > th.first-place:hover,
+.table-hover > tbody > tr.first-place:hover > td,
+.table-hover > tbody > tr:hover > .first-place,
+.table-hover > tbody > tr.first-place:hover > th {
+  background-color: #e6c50e;
+}
+
+.table > thead > tr > td.second-place,
+.table > tbody > tr > td.second-place,
+.table > tfoot > tr > td.second-place,
+.table > thead > tr > th.second-place,
+.table > tbody > tr > th.second-place,
+.table > tfoot > tr > th.second-place,
+.table > thead > tr.second-place > td,
+.table > tbody > tr.second-place > td,
+.table > tfoot > tr.second-place > td,
+.table > thead > tr.second-place > th,
+.table > tbody > tr.second-place > th,
+.table > tfoot > tr.second-place > th {
+  background-color: #dce6e6;
+}
+.table-hover > tbody > tr > td.second-place:hover,
+.table-hover > tbody > tr > th.second-place:hover,
+.table-hover > tbody > tr.second-place:hover > td,
+.table-hover > tbody > tr:hover > .second-place,
+.table-hover > tbody > tr.second-place:hover > th {
+  background-color: #c1d3d3;
+}
+
+.table > thead > tr > td.third-place,
+.table > tbody > tr > td.third-place,
+.table > tfoot > tr > td.third-place,
+.table > thead > tr > th.third-place,
+.table > tbody > tr > th.third-place,
+.table > tfoot > tr > th.third-place,
+.table > thead > tr.third-place > td,
+.table > tbody > tr.third-place > td,
+.table > tfoot > tr.third-place > td,
+.table > thead > tr.third-place > th,
+.table > tbody > tr.third-place > th,
+.table > tfoot > tr.third-place > th {
+  background-color: #cb5733;
+}
+.table-hover > tbody > tr > td.third-place:hover,
+.table-hover > tbody > tr > th.third-place:hover,
+.table-hover > tbody > tr.third-place:hover > td,
+.table-hover > tbody > tr:hover > .third-place,
+.table-hover > tbody > tr.third-place:hover > th {
+  background-color: #b45437;
+}
+
+.table > thead > tr > td.top8-place,
+.table > tbody > tr > td.top8-place,
+.table > tfoot > tr > td.top8-place,
+.table > thead > tr > th.top8-place,
+.table > tbody > tr > th.top8-place,
+.table > tfoot > tr > th.top8-place,
+.table > thead > tr.top8-place > td,
+.table > tbody > tr.top8-place > td,
+.table > tfoot > tr.top8-place > td,
+.table > thead > tr.top8-place > th,
+.table > tbody > tr.top8-place > th,
+.table > tfoot > tr.top8-place > th {
+  background-color: #ffffff;
+}
+.table-hover > tbody > tr > td.top8-place:hover,
+.table-hover > tbody > tr > th.top8-place:hover,
+.table-hover > tbody > tr.top8-place:hover > td,
+.table-hover > tbody > tr:hover > .top8-place,
+.table-hover > tbody > tr.top8-place:hover > th {
+  background-color: #e2e2e2;
+}
+
+.table > thead > tr > td.outside8-place,
+.table > tbody > tr > td.outside8-place,
+.table > tfoot > tr > td.outside8-place,
+.table > thead > tr > th.outside8-place,
+.table > tbody > tr > th.outside8-place,
+.table > tfoot > tr > th.outside8-place,
+.table > thead > tr.outside8-place > td,
+.table > tbody > tr.outside8-place > td,
+.table > tfoot > tr.outside8-place > td,
+.table > thead > tr.outside8-place > th,
+.table > tbody > tr.outside8-place > th,
+.table > tfoot > tr.outside8-place > th {
+  background-color: #969696;
+}
+.table-hover > tbody > tr > td.outside8-place:hover,
+.table-hover > tbody > tr > th.outside8-place:hover,
+.table-hover > tbody > tr.outside8-place:hover > td,
+.table-hover > tbody > tr:hover > .outside8-place,
+.table-hover > tbody > tr.outside8-place:hover > th {
+  background-color: #7d7d7d;
+}
+
+
 .table > thead > tr > td.success,
 .table > tbody > tr > td.success,
 .table > tfoot > tr > td.success,
@@ -2376,6 +2490,7 @@ table th[class*="col-"] {
 .table-hover > tbody > tr.success:hover > th {
   background-color: #d0e9c6;
 }
+
 .table > thead > tr > td.info,
 .table > tbody > tr > td.info,
 .table > tfoot > tr > td.info,
